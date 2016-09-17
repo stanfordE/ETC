@@ -1,0 +1,34 @@
+src/*.exe
+src/EnteCoin
+src/EnteCoind
+src/test_EnteCoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.EnteCoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+EnteCoin-qt
+EnteCoin-Qt.app
+
+# Unit-tests
+Makefile.test
+EnteCoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
